@@ -85,6 +85,32 @@ body {
   margin-top: 30px;
 }
 
+/* PORTOFOLIO
+------------------------------- */
+.grid {
+  display: grid;
+  gap: 26px;
+  /*grid-template-columns: 1fr 1fr 1fr;*/
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /*height: 10px;*/
+  /*widht: 10px;*/
+  margin-top: 6%;
+  margin-bottom: 50px;
+  object-fit:cover;
+}
+
+.grid img {
+    max-width: 100%;
+}
+
+.grid a {
+  color: #2f5167;
+}
+
+.grid a:hover {
+  color: #26d0c9;
+}
+
 /* SNS */
 #sns {
     background: #FAF7F0;
